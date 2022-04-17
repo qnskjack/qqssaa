@@ -1,21 +1,21 @@
 {
    "token": "Bot Token",
-   "prefix": "?",
+   "prefix": "+",
    "ownerIDS": [
       "442355791412854784"
    ],
    "status": {
-      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
-      "text2": "By: milrato.dev",
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: https://discord.gg/Acc3z6fvU9",
+      "text2": "By: QNSK",
       "type": "PLAYING",
-      "url": "https://twitch.tv/#"
+      "url": "QNSK#"
    },
    "clientsettings": {
       "nodes": [
          {
-            "host": "localhost",
-            "port": 2333,
-            "password": "youshallnotpass"
+            "host": "lavalink.islantay.tk",
+            "port": 8880,
+            "password": "waifufufufu"
          }
       ]
    },

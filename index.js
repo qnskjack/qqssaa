@@ -1,22 +1,12 @@
-﻿
-/**********************************************************
- * @INFO  [TABLE OF CONTENTS]
- * 1  Import_Modules
-   * 1.1 Validating script for advertisement
- * 2  CREATE_THE_DISCORD_BOT_CLIENT
- * 3  create_the_languages_objects
- * 4  Raise_the_Max_Listeners
- * 5  LOAD_the_BOT_Functions_and_events
- * 6  Login_to_the_Bot
- * 
- *   BOT CODED BY: TOMato6966 | https://milrato.dev
- *********************************************************/
-
-
-
-/**********************************************************
- * @param {1} Import_Modules for this FIle
- *********************************************************/
+const express = require('express')
+const app = express();
+const port = 3000;
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 const Discord = require("discord.js");
 const colors = require("colors");
 const enmap = require("enmap"); 
